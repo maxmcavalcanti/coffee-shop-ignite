@@ -1,0 +1,16 @@
+export const DbCoffeeList = [
+    { id: 1, quantity:1, name: 'Expresso Tradicional', price: '9.90', description: 'O tradicional café feito com água quente e grãos moídos', type:['TRADICIONAL'], image_path: 'coffee_expresso_tradicional.jpg' },
+    { id: 2, quantity:1, name: 'Expresso Americano', price: '9.90', description: 'Expresso diluído, menos intenso que o tradicional', type:['TRADICIONAL'], image_path: 'coffee_expresso_americano.jpg' },
+    { id: 3, quantity:1, name: 'Expresso Cremoso', price: '9.90', description: 'Café expresso tradicional com espuma cremosa', type:['TRADICIONAL'], image_path: 'coffee_expresso_cremoso.jpg' },
+    { id: 4, quantity:1, name: 'Expresso Gelado', price: '9.90', description: 'Bebida preparada com café expresso e cubos de gelo', type:['TRADICIONAL', 'GELADO'], image_path: 'coffee_expresso_gelado.jpg' },
+    { id: 5, quantity:1, name: 'Café com Leite', price: '9.90', description: 'Meio a meio de expresso tradicional com leite vaporizado', type:['TRADICIONAL','COM LEITE'], image_path: 'coffee_cafe_com_leite.jpg' },
+    { id: 6, quantity:1, name: 'Latte', price: '9.90', description: 'Uma dose de café expresso com o dobro de leite e espuma cremosa', type:['TRADICIONAL','COM LEITE'], image_path: 'coffee_latte.jpg' },
+    { id: 7, quantity:1, name: 'Capuccino', price: '9.90', description: 'Bebida com canela feita de doses iguais de café, leite e espuma', type:['TRADICIONAL','COM LEITE'], image_path: 'coffee_capuccino.jpg' },
+    { id: 8, quantity:1, name: 'Macchiato', price: '9.90', description: 'Café expresso misturado com um pouco de leite quente e espuma', type:['TRADICIONAL','COM LEITE'], image_path: 'coffee_macchiato.jpg' },
+    { id: 9, quantity:1, name: 'Mocaccino', price: '9.90', description: 'Café expresso com calda de chocolate, pouco leite e espuma', type:['TRADICIONAL','COM LEITE'], image_path: 'coffee_mocaccino.jpg' },
+    { id: 10,quantity:1,  name: 'Chocolate Quente', price: '9.90', description: 'Bebida feita com chocolate dissolvido no leite quente e café', type:['ESPECIAL','COM LEITE'], image_path: 'chocolate_quente.jpg' },
+    { id: 11,quantity:1,  name: 'Cubano', price: '9.90', description: 'Drink gelado de café expresso com rum, creme de leite e hortelã', type:['ESPECIAL','ALCOÓLICO','GELADO'], image_path: 'coffee_cubano.jpg' },
+    { id: 12,quantity:1,  name: 'Havaiano', price: '9.90', description: 'Bebida adocicada preparada com café e leite de coco', type:['ESPECIAL'], image_path: 'coffee_havaiano.jpg' },
+    { id: 13,quantity:1,  name: 'Árabe', price: '9.90', description: 'Bebida preparada com grãos de café árabe e especiarias', type:['ESPECIAL'], image_path: 'coffee_arabe.jpg' },
+    { id: 14,quantity:1,  name: 'Irlandês', price: '9.90', description: 'Bebida a base de café, uísque irlandês, açúcar e chantilly', type:['ESPECIAL','ALCOÓLICO'], image_path: 'coffee_irlandes.jpg' },
+]
