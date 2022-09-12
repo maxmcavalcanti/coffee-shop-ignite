@@ -2,7 +2,6 @@
   <p>
     Coffee Shop<br>
     React.js<br>
-    Em construção!
   </p>
 </h1>
 
